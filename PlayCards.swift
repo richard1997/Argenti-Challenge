@@ -61,7 +61,7 @@ class PlayCards {
                 player1WinCount += player1Win
                 player2WinCount += player2Win
             }
-            print("Player 1: \(player1WinCount)\r")
+            print("Player 1: \(player1WinCount)\r\n")
             print("Player 2: \(player2WinCount)")
         } catch (let error as NSError) {
             print(error.debugDescription)
